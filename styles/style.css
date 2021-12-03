@@ -1,0 +1,139 @@
+body {
+  font-family: "Arial";
+  background-color: rgb(225, 233, 247);
+  overflow-x: hidden;
+}
+
+#p5Canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*mobile version*/
+@media screen and (max-width: 423px) {
+  h1 {
+    font-style: normal;
+    font-size: 12vw;
+    font-weight: bold;
+    font-variant: normal;
+    display: block;
+    text-align: center;
+    margin: 5;
+  }
+
+  h2 {
+    font-size: 4vw;
+    text-align: center;
+    margin: 5;
+  }
+
+  img[src*="sleepycat"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  img[src*="profile"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  img[src*="linkedin"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+  }
+
+  .contactfirstline {
+    text-align: center;
+    margin: 0;
+    font-size: 6vw;
+  }
+
+  .contactsecondline {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    font-size: 6vw;
+  }
+
+  .contactthirdline {
+    text-align: center;
+    margin: 0;
+    font-size: 6vw;
+  }
+}
+
+/*desktop version*/
+@media screen and (min-width: 424px) {
+  h1 {
+    font-style: normal;
+    font-size: 4vw;
+    font-weight: bold;
+    font-variant: normal;
+    display: block;
+    text-align: center;
+    margin: 5;
+  }
+
+  h2 {
+    font-size: 1vw;
+    text-align: center;
+    margin: 5;
+  }
+
+  img[src*="sleepycat"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    height: auto;
+  }
+
+  img[src*="profile"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  img[src*="linkedin"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+  }
+
+  .contactfirstline {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5vw;
+  }
+
+  .contactsecondline {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5vw;
+  }
+
+  .contactthirdline {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5vw;
+  }
+}

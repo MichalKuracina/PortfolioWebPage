@@ -1,0 +1,72 @@
+<!-- DOCTYPE html-->
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+      <link rel="stylesheet" href="../styles/style.css">
+      <link rel="stylesheet" href="../styles/navbar.css">
+      <link rel="stylesheet" href="../styles/theTable.css">
+      <link rel="stylesheet" href="../styles/thumbnail.css">
+      <meta name="description" content="Personal page.">
+      <meta name="keywords" content="raspberry pi, DIY, javascript">
+      <meta name="author" conatent="Michal Kuracina">
+      <title>The Poop Tracker</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Projects
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="../pages/project1.html">The Poop Tracker</a>
+                <a href="../pages/project2.html">Cats versus Robots!</a>
+                <a href="../pages/project3.html">Blackjack</a>
+                <a href="../pages/project4.html">Flappy Cat (Playable)</a>
+                <a href="../pages/project5.html">Flappy Cat (with Tensorflow.js)</a>
+            </div>
+        </div>
+        <a href="../pages/contact.html">Contact</a>
+    </div>
+
+      <h1>Cat Management: The Poop Tracker</h1> 
+          <div class="theTable">
+            <table>
+              <tr>
+                  <th>Entry Number</th>
+                  <th>Date</th>
+                  <th>Time</th>
+                  <th>Humidity (%)</th>
+                  <th>Temperature (°C)</th>
+              </tr>
+              
+              <tr>
+                      <td>'RowNumber'</td>
+                      <td>'TodayDate'</td>
+                      <td>'EntryTime'</td>
+                      <td>'Humidity'</td>
+                      <td>'Temperature'</td>
+                      </tr>
+              </table>
+          </div>
+          
+          <h1>How does it work?</h1> 
+          <p1>
+            Cat enters the toilet and PIR sensor is activated. After 2 minutes DHT11 sensor sends the data to RaspberryPi. This data is being uploaded and stored in MySQL database. Everytime you refresh this webpage, last 20 entries are visualised above. Please note that the humidity and temperature values refer to humidity and temperature of the air inside of cats toilet, not the actual "product" 
+          </p1>  
+          <img id="popup" src="../images/project1/0.jpg" alt="raspberryPicturePopup">
+          <div id="previewContainer">
+              <img class="images" src="../images/project1/0.jpg" alt="raspberryPicture1">
+              <img class="images" src="../images/project1/1.jpg" alt="raspberryPicture2">
+              <img class="images" src="../images/project1/2.jpg" alt="raspberryPicture3">
+              <img class="images" src="../images/project1/3.jpg" alt="raspberryPicture4">
+              <img class="images" src="../images/project1/4.jpg" alt="raspberryPicture5">
+              <img class="images" src="../images/project1/5.jpg" alt="raspberryPicture6">
+          </div>
+          <script type="text/javascript" src="../scripts/project1/thumbnail.js"></script>
+  </body>
+</html>
+

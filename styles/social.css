@@ -1,0 +1,49 @@
+ @media screen and (max-width: 423px) {
+    #shareButtonContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fb-share-button {
+        margin: 1%;
+    }
+
+    .vk-share-button {
+        margin: 1%;
+    }
+
+    .tw-share-button {
+        margin: 1%;
+    }
+
+    .li-share-button {
+        margin: 1%;
+    }
+}
+
+@media screen and (min-width: 424px) {
+    #shareButtonContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fb-share-button {
+        margin: 1%;
+    }
+
+    .vk-share-button {
+        margin: 1%;
+    }
+
+    .tw-share-button {
+        margin: 1%;
+    }
+
+    .li-share-button {
+        margin: 1%;
+    }
+}

@@ -1,0 +1,38 @@
+#theTable {
+    padding: 20px 0 40 0;
+}
+
+.theTable th,
+td {
+    text-align: center;
+    padding: 1px 2px 1px 2px;
+}
+
+/* Table header color */
+.theTable tr:nth-child(1) {
+    font-size: 3vw;
+    background-color: #333333;
+    color:#FFFFFF;
+}
+
+@media only screen and (min-width: 961px) {
+    .theTable tr:nth-child(1) {
+        font-size: 1vw;
+        color:#FFFFFF;
+        background-color: #333333
+    }
+}
+
+
+
+/* Zebra-striped table rows */
+.theTable tr:nth-child(even) {
+    background-color: #ffffff 
+}
+
+.theTable table {
+    width: 90%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin: 0 auto;
+}
