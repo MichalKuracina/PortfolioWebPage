@@ -133,9 +133,9 @@ function preload() {
   imgRobot = loadImage("../images/project2/robot.png");
   imgVacuum = loadImage("../images/project2/vacuumCleaner.png");
 
-  imgUpArrow = loadImage("../images/project2/uparrow.png");
-  imgLeftArrow = loadImage("../images/project2/leftarrow.png");
-  imgRightArrow = loadImage("../images/project2/rightarrow.png");
+  imgUpArrow = loadImage("../images/project2/upArrow.png");
+  imgLeftArrow = loadImage("../images/project2/leftArrow.png");
+  imgRightArrow = loadImage("../images/project2/rightArrow.png");
 
   fontScore = loadFont('../font/Chunkfive.otf');
   fontScore = loadFont('../font/Chunkfive.otf');
